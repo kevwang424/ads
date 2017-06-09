@@ -1,0 +1,11 @@
+1. what is the total spent against people with purple hair?
+$512,986
+
+2. how many campaigns spent on more than 14 total days?
+61 campaigns
+
+3. what was the total cost per view for all video ads, truncated to two decimal places?
+$14.63
+
+4. what combination of state and haircolor had the best cost per conversion?
+Brown hair in Washington. Spent $0 on 148 conversions.

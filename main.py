@@ -56,7 +56,7 @@ def costPerViewVideos():
         # converts string into list again
         video_campaigns = ast.literal_eval(video_campaigns)
         # gets rid of the [] empty actions
-        if len(video_campaigns) != 0:
+        if video_campaigns:
             for array in video_campaigns:
                 if array["action"] == "views" and ("source1" in array.keys()):
                     total_video_views += array["source1"]
@@ -67,7 +67,7 @@ def costPerViewVideos():
     # 5. return the average rounded to 2 places $14.626451687829049
     return round(float(total_spend) / total_video_views, 2)
 
-# print costPerViewVideos()
+print costPerViewVideos()
 
 # 4. what combination of state and haircolor had the best cost per conversion?
 
