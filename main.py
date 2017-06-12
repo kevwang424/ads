@@ -67,7 +67,7 @@ def costPerViewVideos():
     # 5. return the average rounded to 2 places $14.626451687829049
     return round(float(total_spend) / total_video_views, 2)
 
-print costPerViewVideos()
+# print costPerViewVideos()
 
 # 4. what combination of state and haircolor had the best cost per conversion?
 
@@ -112,4 +112,4 @@ def bestStateAndHaircolorConversion():
 
     return best_combination # Washington brown hair. Spent $0 for 148 conversions
 
-# print bestStateAndHaircolorConversion()
+print bestStateAndHaircolorConversion()
